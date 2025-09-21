@@ -403,7 +403,7 @@ class MugDesigner {
         }
       })
 
-      const scale = 35
+      const scale = 40
       this.mug.scale.set(scale, scale, scale)
 
       const box = new THREE.Box3().setFromObject(this.mug)
@@ -1037,3 +1037,4 @@ class MugDesigner {
 
 // Initialize the application
 new MugDesigner()
+
